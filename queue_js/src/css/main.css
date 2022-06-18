@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: hsla(143, 47%, 54%, 0.842);
+}
+
+header{
+    text-align: center;
+    color:#ca7361;
+}
+
+main{
+    text-align: center;
+}
+
+.queue_name{
+    padding-top: 0.2em;
+    padding-bottom: 0.5em;
+    font-size:2em;
+    transform: skewY(-4deg);
+    color:#564a5f;
+    text-shadow:
+    #bfbaff 0.1em 0.1em,
+    #cfa7c5 0.2em 0.2em;
+}
+
+.queue{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap:0.5em;
+    align-items: center;
+    padding-bottom: 0.5em;
+}
+
+.queue li{
+    width:65%;
+    margin: 0 auto;
+    background-color: white;
+    font-size: 1.5em;
+    border: 0.05em solid #564a5f;
+    border-radius: 2.5em;
+}
+
+.queue_add_field{
+    width: 50%;
+    border-radius: 2em;
+}
+
+.queue_controls{
+    width:60%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:2em;
+    align-items: center;
+    margin:0 auto;
+    padding-top: 0.5em;
+}
+
+.queue_controls button{
+    font-size: 1em;
+    font-weight: bold;
+    color:white;
+    border-radius: 2em;
+}
+
+.queue_controls_delete{
+    background-color: red;
+}
+
+.queue_controls_add{
+    background-color: green;
+}
+
+.queue_controls_clear{
+    background-color:blue;
+}
