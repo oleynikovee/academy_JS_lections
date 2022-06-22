@@ -5,6 +5,7 @@
   Also,you can delete(press delete) and clear for delete all
   
 # interaction -> Homework for 2nd js lection  
+  You sould have some local server for start it  
   "Хочу собачку"-button print some image with dogs from API  
   "Хочу цитатку"-button print some qoute from API  
   "Хочу котика"-button print some image with cats from API
